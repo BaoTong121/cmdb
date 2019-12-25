@@ -1,0 +1,8 @@
+2019-12-17 16:38:58,288 [__main__ _add_field] Failed to add a field ip. Error: (pymysql.err.IntegrityError) (1062, "Duplicate entry '2-ip' for key 'schema_id'")
+[SQL: INSERT INTO field (name, meta, schema_id, deleted, ref_id) VALUES (%(name)s, %(meta)s, %(schema_id)s, %(deleted)s, %(ref_id)s)]
+[parameters: {'name': 'ip', 'meta': '{"type": {"name": "cmdb.type.Int", "option": {"max": 1000, "min": 1}}, "nullable": true, "unique": false, "default": 123, "multi": false, "reference": {"schema": "ippool", "field": "ip", "on_delete": "disable", "on_update": "disable"}}', 'schema_id': 2, 'deleted': 0, 'ref_id': 3}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+2019-12-18 09:16:00,352 [__main__ _add_field] Failed to add a field ip. Error: (pymysql.err.IntegrityError) (1062, "Duplicate entry '2-ip' for key 'schema_id'")
+[SQL: INSERT INTO field (name, meta, schema_id, deleted, ref_id) VALUES (%(name)s, %(meta)s, %(schema_id)s, %(deleted)s, %(ref_id)s)]
+[parameters: {'name': 'ip', 'meta': '{"type": {"name": "cmdb.type.Int", "option": {"max": 1000, "min": 1}}, "nullable": true, "unique": false, "default": 123, "multi": false, "reference": {"schema": "ippool", "field": "ip", "on_delete": "disable", "on_update": "disable"}}', 'schema_id': 2, 'deleted': 0, 'ref_id': 3}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
